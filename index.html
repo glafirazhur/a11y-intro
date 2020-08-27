@@ -4,15 +4,14 @@
     <title>Цвет настроения</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="stylesheet" href="node_modules/@shower/material/styles/styles.css">
-
     <link rel="stylesheet" href="css/fonts.css">
+
     <style>
         .shower {
             --slide-ratio: calc(16 / 9);
             --color-key: #ffd000;
-
+            --color-black: #202020;
             font: 400 24px/2 'Artegra Sans', sans-serif;
         }
 
@@ -24,9 +23,30 @@
             font: 700 2em/1 'Artegra Sans', sans-serif;
         }
 
-        .caption {
-            background: none;
+        .caption h1 {
+            color: var(--color-black);
+        }
 
+        .caption p {
+            color: var(--color-black);
+        }
+
+        .slide {
+            background-image: url('pictures/back16_9.png');
+            background-size: contain;
+        }
+
+        .progress {
+            top: 0;
+            bottom: unset;
+        }
+
+        .slide::after {
+            color: var(--color-black);
+            font-weight: 700;
+            top: 30px;
+            right: 30px;
+            text-align: right;
         }
     </style>
 </head>
@@ -44,13 +64,13 @@
         <style>
             #cover h2 {
                 margin: 70px 0 0;
-                color: var(--secondary-color);
+                color: #000;
                 font-size: 70px;
             }
 
             #cover p {
                 margin: 10px 0 0;
-                color: var(--secondary-color);
+                color: #000;
                 font-size: 20px;
             }
 
