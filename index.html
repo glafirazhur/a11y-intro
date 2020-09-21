@@ -6,49 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="node_modules/@shower/material/styles/styles.css">
     <link rel="stylesheet" href="css/fonts.css">
-
-    <style>
-        .shower {
-            --slide-ratio: calc(16 / 9);
-            --color-key: #ffd000;
-            --color-black: #202020;
-            font: 400 24px/2 'Artegra Sans', sans-serif;
-        }
-
-        .shower h1 {
-            font: 700 1.17em/1 'Artegra Sans', sans-serif;
-        }
-
-        .shower h2 {
-            font: 700 2em/1 'Artegra Sans', sans-serif;
-        }
-
-        .caption h1 {
-            color: var(--color-black);
-        }
-
-        .caption p {
-            color: var(--color-black);
-        }
-
-        .slide {
-            background-image: url('pictures/back16_9.png');
-            background-size: contain;
-        }
-
-        .progress {
-            top: 0;
-            bottom: unset;
-        }
-
-        .slide::after {
-            color: var(--color-black);
-            font-weight: 700;
-            top: 30px;
-            right: 30px;
-            text-align: right;
-        }
-    </style>
+    <link rel="stylesheet" href="css/custom.css">
 </head>
 <body class="shower list">
 
@@ -61,172 +19,561 @@
         <h2>Цвет настроения</h2>
         <p>Глафира Жур</p>
         <img class="cover" role="presentation" src="pictures/title169.png" alt="">
-        <style>
-            #cover h2 {
-                margin: 70px 0 0;
-                color: #000;
-                font-size: 70px;
-            }
-
-            #cover p {
-                margin: 10px 0 0;
-                color: #000;
-                font-size: 20px;
-            }
-
-            #cover p a {
-                color: white;
-            }
-        </style>
     </section>
 
     <section class="slide">
-        <h2>Shower key features</h2>
-        <ol>
-            <li>Built on HTML, CSS and JavaScript</li>
-            <li>Works in all modern browsers</li>
-            <li>Themes are separated from engine</li>
-            <li>Fully keyboard accessible</li>
-            <li>Printable to PDF</li>
-        </ol>
-        <p class="note">Shower ['ʃəuə] noun. A person or thing that shows.</p>
-    </section>
-
-    <section class="slide">
-        <h2>Plain text on your slides</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur <a href="#4">adipisicing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <em>quis nostrud</em> exercitation ullamco laboris <strong>nisi ut aliquip</strong> ex ea commodo consequat. Duis aute irure <i>dolor</i> in reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in <code>&lt;culpa&gt;</code> qui officia deserunt mollit anim id est laborum.</p>
-    </section>
-
-    <section class="slide">
-        <h2>Two columns if you like</h2>
         <div class="columns two">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+            <div>
+                <img src="pictures/glasha.jpg" alt="">
+            </div>
+            <div>
+                <h2>Обо мне</h2>
+                <ul>
+                    <li class="next">В 2008 решила стать программистом</li>
+                    <li class="next">C 2012 работаю программистом</li>
+                    <li class="next">Мама-художник + папа-технарь = дизайнер интерфейсов</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Психология цвета -->
+    <section class="slide clear">
+        <h2 class="shout">Краткая теория цвета</h2>
+    </section>
+
+    <section class="slide">
+        <h2>RGB</h2>
+    </section>
+
+    <section class="slide">
+        <h2>Красный</h2>
+        <div class="columns two">
+            <div>
+                <img class="color-img" src="pictures/red.jpg" alt="">
+            </div>
+            <div>
+                <h3>Ключевые слова:</h3>
+                <ul class="tags red">
+                    <li>Чувства</li>
+                    <li>Лидерство</li>
+                    <li>Волнение</li>
+                    <li>Энергия</li>
+                    <li>Действие</li>
+                    <li>Важность</li>
+                </ul>
+            </div>
+        </div>
+
+        <a class="copyright right" href="https://www.smashingmagazine.com/2010/01/color-theory-for-designers-part-1-the-meaning-of-color/">Color Theory (Smashing Magazine)</a>
+    </section>
+
+    <section class="slide">
+        <img src="pictures/red.png" class="cover" alt="">
+    </section>
+
+    <section class="slide">
+        <img src="pictures/ressite1.png" class="cover" alt="">
+    </section>
+
+    <section class="slide">
+        <img src="pictures/alfa.png" class="cover" alt="">
+    </section>
+
+    <section class="slide">
+        <img src="pictures/rediste2.png" class="cover" alt="">
+    </section>
+
+    <!-- Самый стимулирующий цвет, заряжающий энергией, ускоряющий циркуляцию крови, будучи на сайте, он сразу привлечёт внимание пользователя! -->
+    <!-- примеры красного в веб-дизаайне, norwegians, альфабанк, кокакола  -->
+
+    <section class="slide">
+        <h2>Зелёный</h2>
+        <div class="columns two">
+            <div>
+                <img class="color-img" src="pictures/green.jpg" alt="">
+            </div>
+            <div>
+                <h3>Ключевые слова:</h3>
+                <ul  class="tags green">
+                    <li>Рост</li>
+                    <li>Стабильность</li>
+                    <li>Энергичность</li>
+                    <li>Спокойствие</li>
+                    <li>Баланс</li>
+                    <li>Экология</li>
+                    <li>Деньги</li>
+                </ul>
+            </div>
+        </div>
+        <a class="copyright right" href="https://www.smashingmagazine.com/2010/01/color-theory-for-designers-part-1-the-meaning-of-color/">Color Theory (Smashing Magazine)</a>
+    </section>
+
+    <section class="slide">
+        <img src="pictures/green.png" class="cover" alt="">
+    </section>
+
+    <section class="slide">
+        <img src="pictures/sber.png" class="cover" alt="">
+    </section>
+
+    <section class="slide">
+        <img src="pictures/greensite2.png" class="cover" alt="">
+    </section>
+
+    <section class="slide">
+        <h2>Синий</h2>
+        <div class="columns two">
+            <div>
+                <img class="color-img" src="pictures/blue.png" alt="">
+            </div>
+            <div>
+                <h3>Ключевые слова:</h3>
+                <ul class="tags blue">
+                    <li>Технологии</li>
+                    <li>Успех</li>
+                    <li>Богатство</li>
+                    <li>Мудрость</li>
+                    <li>Спокойствие</li>
+                    <li>Уверенность</li>
+                </ul>
+            </div>
         </div>
     </section>
 
     <section class="slide">
-        <h2>All kind of lists</h2>
-        <ol>
-            <li>Simple lists are marked with bullets</li>
-            <li>Ordered lists begin with a number</li>
-            <li>You can even nest lists one inside another
-                <ul>
-                    <li>Or mix their types</li>
-                    <li>But do not go too far</li>
-                    <li>Otherwise audience will be bored</li>
-                </ul>
-            </li>
-            <li>Look, seven rows exactly!</li>
-        </ol>
+        <img src="pictures/blue1.png" class="cover" alt="">
     </section>
 
     <section class="slide">
-        <h2>Serious citations</h2>
+        <img src="pictures/bluesite1.png" class="cover" alt="">
+    </section>
+
+    <section class="slide">
+        <img src="pictures/bluesite2.png" class="cover" alt="">
+    </section>
+
+    <!-- Цветовые тренды года -->
+
+    <section class="slide">
+        <h2 class="shout">Цветовые тренды</h2>
+    </section>
+
+    <!-- Цвет 2020 года -->
+
+    <section class="slide">
+        <img class="cover" role="presentation" src="pictures/color-year.jpg" alt="">
+        <a class="copyright right" href="https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2020">Pantone</a>
+    </section>
+
+    <section class="slide">
+        <img class="cover" role="presentation" src="pictures/trand.png" alt="">
+
+        <img class="next cover" role="presentation" src="pictures/color-psy.png" alt="">
+        <a class="copyright right" href="https://merehead.com/ru/blog/color-trends-in-web-design-in-2020/">Цветовые тренды 2020</a>
+    </section>
+
+    <!-- ОЙ А ЧТО СЛУЧИЛОСЬ -->
+    <section class="slide">
+        <img class="cover" role="presentation" src="pictures/redp.png" alt="">
+    </section>
+
+    <section class="slide">
+        <img class="cover" role="presentation" src="pictures/greenp.png" alt="">
+    </section>
+
+    <section class="slide">
+        <div class="columns two">
+            <div>
+                <img src="pictures/glasha.jpg" alt="">
+            </div>
+            <div>
+                <h2>Обо мне</h2>
+                <ul class="smaller">
+                    <li>В 2008 решила стать программистом</li>
+                    <li>С 2012 работаю программистом</li>
+                    <li>Мама-художник + папа-технарь = <s>дизайнер</s> разработчик интерфейсов</li>
+                    <li class="next">В 2018 начала работать в LOVATA (первые шаги в accessibility)</li>
+                    <!-- История про первый проект и как я стала этим заниматься -->
+                    <li class="next">С 2020 работаю в SpurIT (Accessibility Expert / Team Lead)</li>
+                    <!-- Я не искала работу, она нашла меня сама, коллега с прошлой работы написал, что кому-то нужны люди, которые знают о доступности -->
+                    <li class="next">Познаю доступность уже около 2х лет</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="slide">
+        <h2 class="shout">Поговорим про доступрость</h2>
+    </section>
+
+    <section class="slide">
+        <h2>Общая статистика</h2>
+        <ul>
+            <li class="next">15%</li>
+            <li class="next"></li>
+            <li class="next"></li>
+        </ul>
+        <img src="pictures/" alt="">
+    </section>
+
+    <section class="slide">
+        <h2></h2>
+        <ul>
+            <li class="next"></li>
+            <li class="next"></li>
+            <li class="next"></li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2>Зачем мне доступность? <br>Верни картинки!</h2>
+        <ul>
+            <li class="next">Повышение экспертности</li>
+            <li class="next">Повышение цены и конкурентоспособности на рынке</li>
+            <li class="next">Расширение кругозора и восприятия</li>
+            <li class="next">Впереди планеты всей</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2 class="shout">Цветовая слепота</h2>
+    </section>
+
+    <section class="slide">
+        <img src="pictures/colorblind.png" class="cover" alt="">
+    </section>
+
+    <section class="slide">
+        <h2 class="shout">Статистика</h2>
+    </section>
+
+    <section class="slide">
+        <h2>Статистика</h2>
+        <ul>
+            <li>1 из 12 мужчин</li>
+            <li>1 из 200 женщин</li>
+            <li>300 000 000 человек</li>
+            <li>10 Москв</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2>Типы цветовой слепоты</h2>
+        <img src="pictures/igor.png" class="cover" alt="">
+    </section>
+
+    <section class="slide">
+        <h2>Игорь любит кофе</h2>
+        <img src="pictures/coffee.jpg" alt="">
+        <a class="copyright right" href="https://www.freepik.com/vectors/coffee">freepik</a>
+    </section>
+
+    <section class="slide">
+        <img src="pictures/spect.png" class="cover" alt="">
+        <a class="copyright right" href="https://medium.com/@withinsight1/the-front-end-spectrum-c0f30998c9f0">The Front-End Spectrum</a>
+    </section>
+
+    <section class="slide">
+        <img src="pictures/spectrum2.png" class="cover" alt="">
+        <a class="copyright right" href="https://medium.com/@withinsight1/the-front-end-spectrum-c0f30998c9f0">The Front-End Spectrum</a>
+    </section>
+
+    <!-- Игорю приходится часто читать разного рода статьи -->
+
+    <section class="slide">
+        <h2>Статьи со статистикой</h2>
+        <div class="columns two">
+            <div class="next"><img src="pictures/cert1.png" alt=""></div>
+            <div class="next"><img src="pictures/cert2.png" alt=""></div>
+        </div>
+    </section>
+
+    <section class="slide">
+        <h2>Видеоигры</h2>
+        <div class="columns two">
+            <div class="next"><img src="pictures/.png" alt=""></div>
+            <div class="next"><img src="pictures/.png" alt=""></div>
+        </div>
+    </section>
+
+    <section class="slide">
+        <h2>Видеоигры</h2>
+        <div class="columns two">
+            <div class="next"><img src="pictures/.png" alt=""></div>
+            <div class="next"><img src="pictures/.png" alt=""></div>
+        </div>
+    </section>
+
+    <section class="slide">
+        <h2>Caniuse</h2>
+        <div class="columns two">
+            <div class="next"><img src="pictures/cnu1.png" alt=""></div>
+            <div class="next"><img src="pictures/cnu2.png" alt=""></div>
+        </div>
+    </section>
+
+    <section class="slide">
+        <img src="pictures/cnu.png" class="cover" alt="">
+    </section>
+
+    <section class="slide">
+        <img src="pictures/cnup.png" class="cover" alt="">
+    </section>
+
+
+    <section class="slide">
+        <h2 class="shout">Как помочь дальтоникам</h2>
+    </section>
+
+    <section class="slide">
+        <h2 class="shout">No accessibility? <br>No party!</h2>
+    </section>
+
+    <section class="slide">
+        <img src="pictures/ui-input.png" class="cover" alt="">
+    </section>
+
+    <section class="slide">
+        <h2 class="shout">Другие проблемы восприятия</h2>
+    </section>
+
+    <section class="slide">
+        <h2>Виталий</h2>
+    </section>
+
+    <!-- Какие проблемы у Игоря?
+
+    Как можно помочь Игорю?
+    1. Паттерны / Градиенты / Иконки
+    2. Хороший контраст
+    3.-->
+
+    <!--
+    <section class="slide">
+        <h2 class="shout">Протанопия / Протаномалия</h2>
+    </section>
+
+    <section class="slide">
+        <h2 class="shout">Дейтеранопия / Дейтераномалия</h2>
+    </section>
+
+    <section class="slide">
+        <h2 class="shout">Тританопия / Тританомалия</h2>
+    </section>
+-->
+
+    <section class="slide">
+        <h2 class="shout">Дислексия</h2>
+    </section>
+
+    <section class="slide">
+        <img src="pictures/dys.gif" alt="">
+    </section>
+
+    <section class="slide">
+        <h2>Тексты, которые дислексикам приходится читать</h2>
         <figure>
             <blockquote>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+                <p>Архетип неизменяем. Коллективное бессознательное важно отчуждает онтогенез речи. Сновидение аннигилирует ассоцианизм. Кризис мгновенно иллюстрирует культурный контраст. Мышление, на первый взгляд, непрерывно. Автоматизм изменяем.</p>
+                <p>Толпа вероятна. Проекция представляет собой гендер. Чувство, как справедливо считает Ф.Энгельс, социально выбирает стимул, что отмечают такие крупнейшие ученые  как Фрейд, Адлер, Юнг, Эриксон, Фромм. Роль, по определению, интегрирует институциональный эриксоновский гипноз. Страх изменяем.</p>
+                <p>Социализация, согласно традиционным представлениям, вероятна. Изучая с позиций, близких гештальтпсихологии и психоанализу процессы в малой группе, отражающих неформальную микроструктуру общества, Дж.Морено показал, что толпа осознаёт аутотренинг, хотя этот факт нуждается в дальнейшей проверке наблюдением. Апперцепция, конечно, вероятна. Коллективное бессознательное, как принято считать, вразнобой осознаёт эскапизм. Очевидно, что когнитивная составляющая осознаёт ролевой стимул, что вызвало развитие функционализма и сравнительно-психологических исследований поведения.</p>
             </blockquote>
-            <figcaption>Marcus Tullius Cicero</figcaption>
         </figure>
     </section>
 
+    <!-- спец. шрифты, контраст -->
+
     <section class="slide">
-        <h2>Code samples</h2>
-        <pre>
-            <code>&lt;!DOCTYPE html&gt;</code>
-            <code class="mark">&lt;html lang="en"&gt;</code>
-            <code><mark>&lt;head&gt;</mark> <span class="comment">&lt;!--Comment--&gt;</span></code>
-            <code>    &lt;title&gt;Shower&lt;/title&gt;</code>
-            <code>    &lt;meta charset="<mark class="important">UTF-8</mark>"&gt;</code>
-            <code>    &lt;link rel="stylesheet" href="screen.css"&gt;</code>
-            <code><mark>&lt;/head&gt;</mark></code>
-        </pre>
+        <h2 class="shout">Как помочь дислексикам</h2>
     </section>
 
     <section class="slide">
-        <h2>Even tables</h2>
-        <table>
-        <tr>
-            <th scope="col">Locavore</th>
-            <th>Umami</th>
-            <th>Helvetica</th>
-            <th>Vegan</th>
-        </tr>
-        <tr>
-            <th scope="row">Fingerstache</th>
-            <td>Kale</td>
-            <td>Chips</td>
-            <td>Keytar</td>
-        </tr>
-        <tr>
-            <th scope="row">Sriracha</th>
-            <td>Gluten-free</td>
-            <td>Ennui</td>
-            <td>Keffiyeh</td>
-        </tr>
-        <tr>
-            <th scope="row">Thundercats</th>
-            <td>Jean</td>
-            <td>Shorts</td>
-            <td>Biodiesel</td>
-        </tr>
-        <tr>
-            <th scope="row">Terry</th>
-            <td>Richardson</td>
-            <td>Swag</td>
-            <td>Blog</td>
-        </tr>
-        </table>
-        <p>It’s good to have information organized.</p>
-    </section>
-
-    <section class="slide" id="picture">
-        <h2>Pictures</h2>
-        <figure>
-            <img class="cover" src="pictures/picture.jpg" alt="Orange typewriter on a wooden table close-up">
-            <figcaption class="copyright right white">
-                <a href="https://fiftyfootshadows.net">© John Carey</a>
-            </figcaption>
-        </figure>
-        <style>
-            #picture h2 {
-                color: white;
-            }
-        </style>
+        <h2 class="shout">Средства тестирования</h2>
     </section>
 
     <section class="slide">
-        <h2 class="shout shrink">You can even shout this way</h2>
+        <h2>Средства браузеров</h2>
+
+        <div class="columns two">
+            <div>chrome
+                <ul>
+                    <li>LightHouse</li>
+                    <li>DevTools Color</li>
+                    <li>Rendering -> Color Modes</li>
+                </ul>
+
+            </div>
+            <div>firefox
+                <ul>
+                    <li>DevTools Color</li>
+                    <li>Color Modes</li>
+                    <li>Проверка на контраст</li>
+                </ul>
+            </div>
+        </div>
     </section>
 
     <section class="slide">
-        <h2>Inner navigation</h2>
-        <ol>
-            <li>Lets you reveal list items one by one</li>
-            <li class="next">To keep some key points</li>
-            <li class="next">In secret from audience</li>
-            <li class="next">But it will work only once</li>
-            <li class="next">Nobody wants to see the same joke twice</li>
-        </ol>
+        <h2>Режим высокой контрастности</h2>
+        <img src="pictures/" alt="">
     </section>
 
-    <section class="slide" id="see-more">
-        <h2 class="shout">
-            <img src="pictures/logo.svg" alt="Shower logo">
-            <a href="https://github.com/shower/shower">See more on GitHub</a>
-        </h2>
-        <style>
-            #see-more h2 {
-                font-size: 100px
-            }
-
-            #see-more img {
-                width: 0.72em;
-                height: 0.72em;
-            }
-        </style>
+    <section class="slide">
+        <h2>Плагины</h2>
     </section>
+
+    <section class="slide">
+        <h2>Очки</h2>
+    </section>
+
+
+    <section class="slide">
+        <h2 class="shout">Кому ещё <br>вы поможете</h2>
+    </section>
+
+    <section class="slide">
+        <h2>Кому ещё вы поможете</h2>
+        <ul>
+            <li class="next">Ахроматопсия</li>
+            <li class="next">Плохое зрение</li>
+            <li class="next">Катаракта</li>
+            <li class="next">Повреждения мозга</li>
+            <li class="next">Нарушения слуха</li>
+            <li class="next">Когнитивные нарушения</li>
+            <li class="next">...всем!</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2>Fortnite Color Blindness Modes</h2>
+        <img src="pictures/" alt="">
+    </section>
+
+    <section class="slide">
+        <h2 class="shout">Когда <br>разрабатывать доступность?</h2>
+    </section>
+
+    <section class="slide">
+        <h2>Когда разрабатывать доступность?</h2>
+        <ul>
+            <li>На этапе проектирования</li>
+            <li></li>
+            <li>Катаракта</li>
+            <li>Повреждения мозга</li>
+            <li>Нарушения слуха</li>
+            <li>Когнитивные нарушения</li>
+            <li>...всем!</li>
+        </ul>
+    </section>
+
+
+    <section class="slide">
+        <h2>Памятка для дизайнеров</h2>
+        <!-- сладй с идеями для дизайнеров -->
+    </section>
+
+    <section class="slide">
+        <h2>Памятка для разработчиков</h2>
+        <!-- сладй с идеями для разработчиков -->
+    </section>
+
+    <section class="slide">
+        <h2>Моё сообщество</h2>
+        <!-- сладй с идеями для дизайнеров -->
+    </section>
+
+    <section class="slide">
+        <h2>РЕКЛАМА (СЕРЁЖА РАЗРЕШИЛ)</h2>
+        <!-- сладй с идеями для дизайнеров -->
+    </section>
+
+
+
+    Цветовая слепота
+    Дейтероаномалия
+    Красный и зелёный
+
+    Жёлтый и зелёный
+
+    Кофе в кофемашине
+    Лампочка переходит из красного - жёлтого - зелёного
+
+
+    В компьютерных играх проблемы
+    Фортнайт
+    Зума
+
+    Есть трихроматизм
+    протаномалия - красный
+    дейтераномалия - зелёный
+    тританомалия - синий
+
+    Есть дихроматизм
+    Протанопия
+    Дейтеранопия - самый популярный, 75% людей с цветовой слепотой имеют такой тип
+    Тританопия
+
+    Если мы поддержем эти три - мы автоматом поддержим и предыдущие
+
+    Есть монохроматизм
+    Ахроматопсия
+
+    Оливер Сакс - Остров Дальтоников
+
+
+    Для дизайнеров - делайте ваши цвета компонентами, которые вы сможете изменить в любой момент
+    Система не должна включать в себя названия цветов
+    Надо подумать о назначении цвета
+    Надо понимать, как цвета выглядят рядом друг с другом,
+    Но ещё и обратить внимание на то. что рядом
+
+
+    Варианты лечения:
+    1. Градиенты
+    2. Паттерны
+    3. Буквенное обозначение
+    4. Иконки
+    5. Хороший контраст
+
+    Выбор цвета:
+    1. На цветовом круге надо выбирать противоположные цвета,
+    но исключая при этом красный и зелёный как противоположные
+    2. Контраст тёплый/холодный
+
+
+    Кому поможет мысль о колорблайнд:
+    1. Люядм с ахромотопсией
+    2. Плохое зрение
+    3. Катаракта
+    4. Повреждения мозга
+    5. Проблемы со слухом (визуал становится очень важным)
+    6. Люди с когнитивными нарушениями
+    7. .....врем?? Фортнайт, где народ врубает режим тританопии,
+    чтобы видеть врагов и видеть через зону
+
+
+    Дислексия
+    Читают медленно
+    Шрифт может быть проблемой
+    Читает слова конец - начало - середина
+    Буквы зеркалятся
+    Колоссальное напряжение на голову
+    Схемы-картинки - нармас
+
+    Спец.шрифты
+    Фоны
+    Голосовые сообщения
+    т9 очень помогает им
+
+
+    Что бесит дальтоников?
+    1. Какой это цвет?
+    2.
+
+
+
+
 
     <footer class="badge">
         <a href="https://github.com/shower/shower">Fork me on GitHub</a>
