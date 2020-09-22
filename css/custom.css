@@ -19,7 +19,7 @@
 }
 
 .caption p {
-    color: var(--color-black);
+    color: var(--color-heading);
 }
 
 .slide {
@@ -55,13 +55,14 @@
 
 #cover h2 {
     margin: 70px 0 0;
-    color: var(--color-black);
+    color: var(--color-heading);
     font-size: 70px;
+
 }
 
 #cover p {
     margin: 10px 0 0;
-    color: var(--color-black);
+    color: var(--color-heading);
     font-size: 20px;
 }
 
@@ -82,8 +83,8 @@ h3 {
 .cover {
     height: 100%;
     width: 100%;
-    object-fit: cover;
-    object-position: -50px bottom;
+    /*object-fit: cover;*/
+    /*object-position: -50px bottom;*/
 }
 
 .columns ul li {
