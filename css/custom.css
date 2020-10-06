@@ -1,7 +1,7 @@
 .shower {
     --slide-ratio: calc(16 / 9);
-    --color-key: #ffd000;
-    --color-black: #444;
+    --color-key: #7cb1ea;
+    --color-black: #3b3b3b;
     --color-heading: #202020;
     font: 400 24px/2 'Artegra Sans', sans-serif;
 }
@@ -50,7 +50,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ffd000;
+    background-color: #ffba33;
 }
 
 #cover h2 {
@@ -82,12 +82,19 @@ img:not(.cover).content {
     margin: 0 auto;
 }
 
+img:not(.cover).content-full {
+    width: unset;
+    height: calc(100% - 70px);
+    display: block;
+    margin: 0 auto;
+}
+
 .slide a {
     color: #444;
 }
 
 .slide a.copyright {
-    color: #ec0505;
+    color: #050626;
     background-color: #fff;
     padding: 0 10px;
     font-weight: 700;
@@ -97,7 +104,7 @@ img:not(.cover).content {
 }
 
 .slide li::before {
-    color: #ec0505;
+    color: #050626;
 }
 
 .slide h2 {
